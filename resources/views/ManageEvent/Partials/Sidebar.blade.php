@@ -20,7 +20,7 @@
             <li class="{{ Request::is('*tickets*') ? 'active' : '' }}">
                 <a href="{{route('showEventTickets', array('event_id' => $event->id))}}">
                     <span class="figure"><i class="ico-ticket"></i></span>
-                    <span class="text">礼包</span>
+                    <span class="text">礼包码</span>
                 </a>
             </li>
             {{--<li class="{{ Request::is('*orders*') ? 'active' : '' }}">--}}

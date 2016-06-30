@@ -11,7 +11,7 @@
 
 @section('page_title')
     <i class="ico-ticket mr5"></i>
-    Event 礼包
+    礼包码
 @stop
 
 
